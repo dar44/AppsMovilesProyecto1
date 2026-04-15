@@ -3,20 +3,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Proyecto1Colores.MainPage">
 
-    <Grid x:Name="ColorContainer"
-          Padding="16"
-          BackgroundColor="#000000"
-          RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
-          RowSpacing="16">
+       <ScrollView Orientation="Vertical">
+              <Grid x:Name="ColorContainer"
+                       Padding="16"
+                       BackgroundColor="#000000"
+                       RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+                       RowSpacing="16">
 
-        <Label Grid.Row="0"
+        <Label x:Name="TitleLabel"
+               Grid.Row="0"
                Text="Colores"
                FontSize="32"
                HorizontalOptions="Center"
                TextColor="White" />
 
-        <Label Grid.Row="1"
-               Text="Valor rojo:"
+        <Label x:Name="RedValueLabel"
+               Grid.Row="1"
+               Text="Valor Rojo:"
                FontSize="16"
                TextColor="White" />
 
@@ -30,8 +33,9 @@
                 MaximumTrackColor="#D9D9D9"
                 ValueChanged="Slider_ValueChanged" />
 
-        <Label Grid.Row="3"
-               Text="Valor verde:"
+        <Label x:Name="GreenValueLabel"
+               Grid.Row="3"
+               Text="Valor Verde:"
                FontSize="16"
                TextColor="White" />
 
@@ -45,8 +49,9 @@
                 MaximumTrackColor="#D9D9D9"
                 ValueChanged="Slider_ValueChanged" />
 
-        <Label Grid.Row="5"
-               Text="Valor azul:"
+        <Label x:Name="BlueValueLabel"
+               Grid.Row="5"
+               Text="Valor Azul:"
                FontSize="16"
                TextColor="White" />
 
@@ -71,18 +76,19 @@
               ColumnDefinitions="*,*"
               ColumnSpacing="12">
             <Button Grid.Column="0"
-                    Text="Copiar"
+                    Text="Copiar al Portapapeles"
                     Clicked="Clipboard_Clicked"
                     BackgroundColor="#B43C2D"
                     TextColor="White" />
 
             <Button Grid.Column="1"
-                    Text="Generar color aleatorio"
+                    Text="Generar Color Aleatorio"
                     Clicked="RandomButton_Clicked"
                     BackgroundColor="#B43C2D"
                     TextColor="White" />
         </Grid>
 
-    </Grid>
+              </Grid>
+       </ScrollView>
 
 </ContentPage>
