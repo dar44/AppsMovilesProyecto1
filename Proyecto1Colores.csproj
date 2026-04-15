@@ -28,10 +28,10 @@
 		<MauiXamlInflator>SourceGen</MauiXamlInflator>
 
 		<!-- Display name -->
-		<ApplicationTitle>Proyecto1Colores</ApplicationTitle>
+		<ApplicationTitle>Selector de Colores</ApplicationTitle>
 
 		<!-- App Identifier -->
-		<ApplicationId>com.companyname.proyecto1colores</ApplicationId>
+		<ApplicationId>com.inf320.proyecto1colores</ApplicationId>
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
