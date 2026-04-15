@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Proyecto1Colores.MainPage">
+
+    <Grid x:Name="ColorContainer"
+          Padding="16"
+          BackgroundColor="#000000"
+          RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
+          RowSpacing="16">
+
+        <Label Grid.Row="0"
+               Text="Colores"
+               FontSize="32"
+               HorizontalOptions="Center"
+               TextColor="White" />
+
+        <Label Grid.Row="1"
+               Text="Valor rojo:"
+               FontSize="16"
+               TextColor="White" />
+
+        <Slider x:Name="RedSlider"
+                Grid.Row="2"
+                Minimum="0"
+                Maximum="255"
+                Value="0"
+                ThumbColor="#B43C2D"
+                MinimumTrackColor="#B43C2D"
+                MaximumTrackColor="#D9D9D9"
+                ValueChanged="Slider_ValueChanged" />
+
+        <Label Grid.Row="3"
+               Text="Valor verde:"
+               FontSize="16"
+               TextColor="White" />
+
+        <Slider x:Name="GreenSlider"
+                Grid.Row="4"
+                Minimum="0"
+                Maximum="255"
+                Value="0"
+                ThumbColor="#B43C2D"
+                MinimumTrackColor="#B43C2D"
+                MaximumTrackColor="#D9D9D9"
+                ValueChanged="Slider_ValueChanged" />
+
+        <Label Grid.Row="5"
+               Text="Valor azul:"
+               FontSize="16"
+               TextColor="White" />
+
+        <Slider x:Name="BlueSlider"
+                Grid.Row="6"
+                Minimum="0"
+                Maximum="255"
+                Value="0"
+                ThumbColor="#B43C2D"
+                MinimumTrackColor="#B43C2D"
+                MaximumTrackColor="#D9D9D9"
+                ValueChanged="Slider_ValueChanged" />
+
+        <Label x:Name="HexValueLabel"
+               Grid.Row="7"
+               Text="#000000"
+               FontSize="18"
+               HorizontalOptions="Center"
+               TextColor="White" />
+
+        <Grid Grid.Row="8"
+              ColumnDefinitions="*,*"
+              ColumnSpacing="12">
+            <Button Grid.Column="0"
+                    Text="Copiar"
+                    Clicked="Clipboard_Clicked"
+                    BackgroundColor="#B43C2D"
+                    TextColor="White" />
+
+            <Button Grid.Column="1"
+                    Text="Generar color aleatorio"
+                    Clicked="RandomButton_Clicked"
+                    BackgroundColor="#B43C2D"
+                    TextColor="White" />
+        </Grid>
+
+    </Grid>
+
+</ContentPage>
