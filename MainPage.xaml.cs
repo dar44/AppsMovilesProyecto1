@@ -45,6 +45,7 @@ public partial class MainPage : ContentPage
 
 		Color color = Color.FromRgb(red, green, blue);
 		Color textColor = ObtenerColorTextoPorContraste(red, green, blue);
+		Color buttonTextColor = ObtenerColorOpuesto(textColor);
 
 		ColorContainer.BackgroundColor = color;
 		HexValueLabel.Text = $"#{red:X2}{green:X2}{blue:X2}";
@@ -52,6 +53,16 @@ public partial class MainPage : ContentPage
 		GreenValueLabel.TextColor = textColor;
 		BlueValueLabel.TextColor = textColor;
 		HexValueLabel.TextColor = textColor;
+		RedSlider.ThumbColor = textColor;
+		GreenSlider.ThumbColor = textColor;
+		BlueSlider.ThumbColor = textColor;
+		RedSlider.MinimumTrackColor = textColor;
+		GreenSlider.MinimumTrackColor = textColor;
+		BlueSlider.MinimumTrackColor = textColor;
+		CopyButton.BackgroundColor = textColor;
+		RandomButton.BackgroundColor = textColor;
+		CopyButton.TextColor = buttonTextColor;
+		RandomButton.TextColor = buttonTextColor;
 	}
 
 	private static Color ObtenerColorTextoPorContraste(int red, int green, int blue)
@@ -60,5 +71,11 @@ public partial class MainPage : ContentPage
 		// dependiendo de cuál tenga mejor contraste con el fondo.
 		double luminancia = (0.299 * red) + (0.587 * green) + (0.114 * blue);
 		return luminancia > 186 ? Colors.Black : Colors.White;
+	}
+
+	private static Color ObtenerColorOpuesto(Color textColor)
+	{
+		// Esta función devuelve el color opuesto al proporcionado.
+		return Color.FromRgb(1f - textColor.Red, 1f - textColor.Green, 1f - textColor.Blue);
 	}
 }

@@ -21,9 +21,9 @@
                 Minimum="0"
                 Maximum="255"
                 Value="0"
-                ThumbColor="#B43C2D"
-                MinimumTrackColor="#B43C2D"
-                MaximumTrackColor="#D9D9D9"
+                ThumbColor="White"
+                MinimumTrackColor="White"
+                MaximumTrackColor="DarkGray"
                 ValueChanged="Slider_ValueChanged" />
 
         <Label x:Name="GreenValueLabel"
@@ -37,9 +37,9 @@
                 Minimum="0"
                 Maximum="255"
                 Value="0"
-                ThumbColor="#B43C2D"
-                MinimumTrackColor="#B43C2D"
-                MaximumTrackColor="#D9D9D9"
+                ThumbColor="White"
+                MinimumTrackColor="White"
+                MaximumTrackColor="DarkGray"
                 ValueChanged="Slider_ValueChanged" />
 
         <Label x:Name="BlueValueLabel"
@@ -53,9 +53,9 @@
                 Minimum="0"
                 Maximum="255"
                 Value="0"
-                ThumbColor="#B43C2D"
-                MinimumTrackColor="#B43C2D"
-                MaximumTrackColor="#D9D9D9"
+                ThumbColor="White"
+                MinimumTrackColor="White"
+                MaximumTrackColor="DarkGray"
                 ValueChanged="Slider_ValueChanged" />
 
         <Label x:Name="HexValueLabel"
@@ -68,17 +68,19 @@
         <Grid Grid.Row="8"
               ColumnDefinitions="*,*"
               ColumnSpacing="12">
-            <Button Grid.Column="0"
+           <Button x:Name="CopyButton"
+                  Grid.Column="0"
                     Text="Copiar al Portapapeles"
                     Clicked="Clipboard_Clicked"
-                    BackgroundColor="#B43C2D"
-                    TextColor="White" />
+                    BackgroundColor="White"
+                    TextColor="Black" />
 
-            <Button Grid.Column="1"
+           <Button x:Name="RandomButton"
+                  Grid.Column="1"
                     Text="Generar Color Aleatorio"
                     Clicked="RandomButton_Clicked"
-                    BackgroundColor="#B43C2D"
-                    TextColor="White" />
+                    BackgroundColor="White"
+                    TextColor="Black" />
         </Grid>
 
               </Grid>
