@@ -7,7 +7,7 @@
     Title="Proyecto1Colores">
 
     <ShellContent
-        Title="Home"
+        Title="Selector de Colores"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 

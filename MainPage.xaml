@@ -10,13 +10,6 @@
                        RowDefinitions="Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto,Auto"
                        RowSpacing="16">
 
-        <Label x:Name="TitleLabel"
-               Grid.Row="0"
-               Text="Colores"
-               FontSize="32"
-               HorizontalOptions="Center"
-               TextColor="White" />
-
         <Label x:Name="RedValueLabel"
                Grid.Row="1"
                Text="Valor Rojo:"
