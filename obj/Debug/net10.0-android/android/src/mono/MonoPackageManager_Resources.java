@@ -1,8 +1,8 @@
 package mono;
 public class MonoPackageManager_Resources {
 	public static String[] Assemblies = new String[]{
-		/* We need to ensure that "Proyecto2Propina.dll" comes first in this list. */
-		"Proyecto2Propina.dll",
+		/* We need to ensure that "Proyecto1Colores.dll" comes first in this list. */
+		"Proyecto1Colores.dll",
 		"GoogleGson.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",

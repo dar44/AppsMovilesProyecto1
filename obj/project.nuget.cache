@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HfogI29ULgg=",
+  "dgSpecHash": "1BnDNOtn9ks=",
   "success": true,
-  "projectFilePath": "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/Proyecto2Propina.csproj",
+  "projectFilePath": "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/Proyecto1Colores.csproj",
   "expectedPackageFiles": [
     "/home/jose/.nuget/packages/googlegson/2.13.1.1/googlegson.2.13.1.1.nupkg.sha512",
     "/home/jose/.nuget/packages/microsoft.extensions.configuration/10.0.0/microsoft.extensions.configuration.10.0.0.nupkg.sha512",
@@ -25,7 +25,7 @@
     "/home/jose/.nuget/packages/microsoft.maui.essentials/10.0.20/microsoft.maui.essentials.10.0.20.nupkg.sha512",
     "/home/jose/.nuget/packages/microsoft.maui.graphics/10.0.20/microsoft.maui.graphics.10.0.20.nupkg.sha512",
     "/home/jose/.nuget/packages/microsoft.maui.resizetizer/10.0.20/microsoft.maui.resizetizer.10.0.20.nupkg.sha512",
-    "/home/jose/.nuget/packages/microsoft.net.illink.tasks/10.0.6/microsoft.net.illink.tasks.10.0.6.nupkg.sha512",
+    "/home/jose/.nuget/packages/microsoft.net.illink.tasks/10.0.4/microsoft.net.illink.tasks.10.0.4.nupkg.sha512",
     "/home/jose/.nuget/packages/xamarin.android.glide/4.16.0.14/xamarin.android.glide.4.16.0.14.nupkg.sha512",
     "/home/jose/.nuget/packages/xamarin.android.glide.annotations/4.16.0.14/xamarin.android.glide.annotations.4.16.0.14.nupkg.sha512",
     "/home/jose/.nuget/packages/xamarin.android.glide.disklrucache/4.16.0.14/xamarin.android.glide.disklrucache.4.16.0.14.nupkg.sha512",

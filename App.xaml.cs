@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace Proyecto2Propina;
+namespace Proyecto1Colores;
 
 public partial class App : Application
 {
