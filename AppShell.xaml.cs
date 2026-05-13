@@ -1,4 +1,4 @@
-﻿namespace Proyecto1Colores;
+﻿namespace Proyecto2Propina;
 
 public partial class AppShell : Shell
 {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/Proyecto1Colores.csproj": {}
+    "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/Proyecto1Colores.csproj": {}
   },
   "projects": {
-    "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/Proyecto1Colores.csproj": {
+    "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/Proyecto1Colores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/Proyecto1Colores.csproj",
+        "projectUniqueName": "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/Proyecto1Colores.csproj",
         "projectName": "Proyecto1Colores",
-        "projectPath": "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/Proyecto1Colores.csproj",
+        "projectPath": "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/Proyecto1Colores.csproj",
         "packagesPath": "/home/jose/.nuget/packages/",
-        "outputPath": "/home/jose/Documentos/GitHub/AppsMovilesProyecto1/obj/",
+        "outputPath": "/home/jose/Documentos/Universidad/2026-1/inf320/AppsMovilesProyecto2/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -57,7 +57,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[10.0.4, )",
+              "version": "[10.0.6, )",
               "autoReferenced": true
             }
           },
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.106/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

@@ -6,7 +6,7 @@
 using System;
 using System.CodeDom.Compiler;
 
-namespace Proyecto1Colores {
+namespace Proyecto2Propina {
 	#pragma warning disable IDE0002
 	/// <summary>
 	/// Android Resource Designer class.

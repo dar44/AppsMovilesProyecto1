@@ -1,7 +1,7 @@
 ﻿using Android.App;
 using Android.Runtime;
 
-namespace Proyecto1Colores;
+namespace Proyecto2Propina;
 
 [Application]
 public class MainApplication : MauiApplication
