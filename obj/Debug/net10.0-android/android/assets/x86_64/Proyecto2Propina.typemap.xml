@@ -1,0 +1,10 @@
+<api type="debug" assembly-name="Proyecto2Propina" mvid="c5fe49fc9e274e7bab83c281131ef060">
+  <java-to-managed>
+    <entry java-name="crc64a60d2a60b496df5c/MainActivity" managed-name="Proyecto2Propina.MainActivity, Proyecto2Propina" managed-type-token-id="33554442" />
+    <entry java-name="crc64a60d2a60b496df5c/MainApplication" managed-name="Proyecto2Propina.MainApplication, Proyecto2Propina" managed-type-token-id="33554443" />
+  </java-to-managed>
+  <managed-to-java>
+    <entry java-name="crc64a60d2a60b496df5c/MainActivity" managed-name="Proyecto2Propina.MainActivity, Proyecto2Propina" managed-type-token-id="33554442" />
+    <entry java-name="crc64a60d2a60b496df5c/MainApplication" managed-name="Proyecto2Propina.MainApplication, Proyecto2Propina" managed-type-token-id="33554443" />
+  </managed-to-java>
+</api>

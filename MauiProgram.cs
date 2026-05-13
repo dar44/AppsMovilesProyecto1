@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace Proyecto1Colores;
+namespace Proyecto2Propina;
 
 public static class MauiProgram
 {

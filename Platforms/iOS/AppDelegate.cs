@@ -1,6 +1,6 @@
 ﻿using Foundation;
 
-namespace Proyecto1Colores;
+namespace Proyecto2Propina;
 
 [Register("AppDelegate")]
 public class AppDelegate : MauiUIApplicationDelegate

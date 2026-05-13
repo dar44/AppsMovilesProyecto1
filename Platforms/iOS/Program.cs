@@ -1,7 +1,7 @@
 ﻿using ObjCRuntime;
 using UIKit;
 
-namespace Proyecto1Colores;
+namespace Proyecto2Propina;
 
 public class Program
 {
